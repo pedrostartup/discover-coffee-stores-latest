@@ -26,11 +26,11 @@ export default function Card({name, imgUrl, href}: CardType) {
                 className='max-h-[200px] min-h-[200px] rounded-lg shadow-lg'
                 //className="rounded-lg shadow-lg"
                 src={imgUrl}
-                width={260}
-                height={160}
-                //layout="fill"
-                //objectFit="cover"
-                alt={name}
+                //width={260}
+                //height={160}
+                layout="fill"
+                objectFit="cover"
+                alt={'Coffee Store Image'}
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO8/+ZNPQAIoQM4xp5zkgAAAABJRU5ErkJggg=="
                 placeholder="blur"
             />
